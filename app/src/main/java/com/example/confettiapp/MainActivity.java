@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 .spread(500)
                 .colors(Arrays.asList(0xfce18a, 0xff726d, 0xf4306d, 0xb48def))
                 .setSpeedBetween(0f, 30f)
-                .position(new Position.Relative(0.5, 0.3))
+                .position(new Position.Relative(0.7, 0.6))
                 .build();
 
     }
