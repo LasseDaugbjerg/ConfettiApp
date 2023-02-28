@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">confettiApp</string>
+    <string name="click_me_for_a_longer_boom">Click me for a longer boom!</string>
+    <string name="click_me">Click me!</string>
+    <string name="click_me_for_a_big_burst_of_confetti">Click me for a big burst of Confetti</string>
 </resources>
