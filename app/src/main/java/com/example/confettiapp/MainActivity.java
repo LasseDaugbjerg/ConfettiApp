@@ -2,6 +2,7 @@ package com.example.confettiapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 import java.util.Arrays;
 import java.util.concurrent.TimeUnit;
@@ -32,5 +33,10 @@ public class MainActivity extends AppCompatActivity {
                 .setSpeedBetween(0f, 30f)
                 .position(new Position.Relative(0.5, 0.3))
                 .build();
+    }
+
+    public void ConfettiBoom(View view) {
+        System.out.println("Hello test");
+        konfettiView.start(party);
     }
 }
